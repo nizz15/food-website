@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+.logo img{
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+       
+}
+ header ul{
+    float: right;
+    margin-right: 20px;
+  
+    
+  
+}
+header ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.ac{
+    
+    border-bottom: solid red;
+}
+header ul li a{
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    color:rgb(223, 214, 214);
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+}
+ header li a.active,
+ header li a:hover{
+    background: rgb(203, 144, 8);
+    border-radius: 5px;
+}
+.center{
+    text-align: left;
+    padding: 150px;
+    justify-content: space-around;
+    position: relative;
+    
+}
+.center h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style:italic;
+    color: rgb(208, 130, 12);
+    text-shadow: rgb(216, 195, 195);
+    padding-top: 100px;
+    padding-left: 130px;
+}
+.center h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style:italic;
+    text-shadow: rgb(208, 130, 12);
+    color: aliceblue;
+    padding-left: 80px;
+}
+.center p{
+    color: rgb(193, 146, 76);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style:italic;
+    font-size: larger;
+    padding-left: 80px;
+}
+
+
+ button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffb3b3;
+    background: red;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #cc0000;
+    transition: 4s;
+}
+.btn2{
+    margin-left: 115px;
+    border-radius: 10px;
+    
+}
+ button:hover{
+    background: #cc0000;
+}
+
+.btn2:hover{
+    transform:scale(1.5,1.5)
+}
+button  a{
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    color:rgb(223, 214, 214);
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.menu h1{
+    text-align: center;
+    color:  rgb(223, 119, 28);
+    padding-top: 170px;
+    font-family: MV Boli;
+
+}
+.menu table{
+    width: 80%;
+    border: solid rgba(170, 163, 163, 0.834);
+    border-collapse: collapse;
+    text-align: center;
+    color: #ede5e5;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+.menu th,td{
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+}
+footer{
+    background: #342f2fc7;
+    height: 100%;
+    width: 100%;
+    font-family:"open sans";
+    color: #ede5e5;
+    margin-top: 50px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+.footer-content h2{
+    font-size:larger;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+
+}
+i:hover{
+    transform: scale(2,2);
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+.footer-bottom{
+    text-align: center;
+
+}
+.gallery h3{
+    color: rgb(223, 119, 28);
+    text-align: center;
+    padding-top: 120px;
+    font-family: MV Boli;
+
+}
+.gallery img{
+    margin-left: auto;
+    margin-right: auto;
+   margin: 10px;
+  
+   width: 260px;
+   height: 260px;
+   
+   
+}
+.gallery img:hover{
+    opacity: 0.4;
+}
+
+.about img{
+    float: right;
+    width: 50%;
+    height: 50%;
+    padding-top: 110px;
+    
+    
+}
+.about{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.about h2{
+    color:rgb(223, 119, 28);
+    font-family: 'French Script MT';
+    font-size: 72px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 120px;
+   
+    
+}
+.about p{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    margin-left: 30px;
+    
+
+}
+.team h2{
+
+    color:rgb(223, 119, 28);
+    font-family: 'French Script MT';
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.card {
+    width: 80%;
+    transition: 0.3s;
+    margin-top: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+   
+  }
+.card img{
+    border-radius: 50%;
+    width: 250px !important;
+    height: 250px !important;
+    position: relative;
+    object-fit: cover;
+    left: 70px;
+    bottom: 80px;
+    border: 2px solid  rgb(223, 119, 28);
+}
+.card:hover{
+    transform:scale(1.1,1.1)
+}
+.order{
+    display:flex;
+    justify-content: space-around;
+}
+.order img{
+    padding-top: 150px;
+    width: 400px;
+    height: 400px;
+    padding-left: 100px;
+
+    
+} 
+.order form{
+    padding-top: 50px;
+    width: 400px;
+    height: 400px;
+    padding-right: 30px;
+    
+
+}
+label{
+   
+     padding: 12px 12px 12px 0;
+     display: inline-block;
+     color: rgb(223, 119, 28);
+     font-family: MV Boli;
+     
+      
+}input[type=text],  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    border: 2px solid  rgb(223, 119, 28);
+  }
+  .or{
+    color: rgb(208, 130, 12);
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    font-family: 'MV Boli';
+  }
+  input[type=submit] {
+    width: 50%;
+    background-color:rgb(223, 119, 28);
+    color: white;
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "MV Boli";
+  }
+  
+  input[type=submit]:hover {
+    background-color: #641307;
+  }
+  
